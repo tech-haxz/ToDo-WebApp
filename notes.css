@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    color: #ffffff;
+    background-color: #0E1C36;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.724)
+}
+
+h1{
+    margin: 0 0 20px 0;
+}
+
+
+.container {
+    color: #ffffff;
+    background-color: #0E1C36;
+    border-radius: 0 0 10px 10px;
+    font-size: larger;
+}
+
+#inpTask{
+    padding: 1em;
+    border: none;
+    width: 100%;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#inpTask:focus{
+    border: 2px solid grey;
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(247, 146, 75);
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+#rmbtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btn:hover, #rmbtn:hover, #fetchdata:hover{
+    transform: scale(1.1);
+}
+
+#fetchdata{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#btn:hover{
+    border: 2px solid black;
+}
+
+div .complete{
+    text-decoration: line-through;
+}
